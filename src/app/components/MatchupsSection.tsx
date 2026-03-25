@@ -5,14 +5,14 @@ const MATCHUPS = [
   {
     id: 1,
     fighter1: {
-      name: "El Mariana",
+      name: "Fernanfloo",
       country: "MX",
-      image: "public/luchador1.webp" 
+      image: "/luchador1.webp" 
     },
     fighter2: {
       name: "Plex",
       country: "ES",
-      image: "public/luchador2.webp"
+      image: "/luchador2.webp"
     },
     weightClass: "85 KG",
     color: "#ff003c"
@@ -20,16 +20,16 @@ const MATCHUPS = [
   {
     id: 2,
     fighter1: {
-      name: "Rivers",
+      name: "Illojuan",
       country: "MX",
-      image: "/luchador1.png"
+      image: ""
     },
     fighter2: {
-      name: "Samy",
+      name: "TheGrefg",
       country: "ES",
-      image: "/luchador2.png"
+      image: ""
     },
-    weightClass: "58 KG",
+    weightClass: "75 KG",
     color: "#00e5ff"
   }
 ];
@@ -91,7 +91,7 @@ function ImmersiveMatchup({ matchup }: { matchup: typeof MATCHUPS[0] }) {
         <motion.div 
           initial={{ x: "-20vw", opacity: 0 }}
           animate={isInView ? { x: 0, opacity: 1 } : { x: "-20vw", opacity: 0 }}
-          transition={{ type: "spring", stiffness: 50, damping: 15 }}
+          transition={{ type: "spring", stiffness: 30, damping: 20, mass: 2.5 }}
           className="relative w-1/2 h-full flex flex-col justify-end items-start transform-gpu will-change-transform will-change-opacity"
         >
           {/* Imagen OPTIMIZADA (Sin drop-shadow CSS) */}

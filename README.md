@@ -2,6 +2,9 @@
 
 Este repositorio contiene un prototipo de alto rendimiento y diseño de vanguardia creado específicamente como propuesta para la interfaz web de **La Velada del Año 6**.
 
+# Ver Demo en Vivo (Recomendado):
+[https://prototipo-velada-vi-jorge-condado-c.vercel.app/](https://prototipo-velada-vi-jorge-condado-c.vercel.app/)
+
 ## Objetivo del Proyecto
 El objetivo principal es evolucionar la experiencia digital del evento, pasando de una web estática a una **experiencia interactiva e inmersiva**. Cada sección ha sido diseñada para potenciar el *hype*, reflejando la magnitud de un evento de calibre mundial (estilo PPV de Boxeo / eSports de Tier 1).
 
