@@ -1,0 +1,9 @@
+Copyright (c) 2026 [JORGE CONDADO CARBALLO]
+Todos los derechos reservados.
+
+Este código fuente, diseño y prototipo son propiedad exclusiva de [JOREG CONDADO CARBALLO].
+Queda estrictamente prohibida la copia, reproducción, modificación, distribución 
+o uso comercial de este material sin el consentimiento expreso y por escrito del autor.
+
+Este proyecto ha sido desarrollado exclusivamente como una propuesta de diseño y 
+demostración técnica para "La Velada del Año 6".
